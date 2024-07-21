@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Russo+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#main {
+  background-color: #af468d;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#part1 {
+  height: 100%;
+  width: 25%;
+  /* background-color: red; */
+}
+#part2 {
+  height: 100%;
+  width: 65%;
+
+  background-image: url("https://images.unsplash.com/photo-1667481447352-4d52716b563e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #11090f8f;
+}
+#part3 {
+  height: 100%;
+  width: 10%;
+  /* background-color: green; */
+}
+#text {
+  /* height: 300px; */
+  position: absolute;
+  width: 500px;
+  /* background-color: red; */
+  left: 7%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#text h1 {
+  font-size: 5.5vw;
+  letter-spacing: 7px;
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  line-height: 4.5vw;
+  color: white;
+}
+#small-img {
+  height: 400px;
+  background-color: red;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+  background-image: url(https://images.unsplash.com/photo-1588367171393-c0f77a14faff?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#vertical-text {
+  position: absolute;
+  /* width: 100%; */
+  /* background-color: red; */
+  transform: rotate(90deg);
+  transform-origin: 0%;
+  right: -38%;
+}
+#vertical-text h1 {
+  font-size: 70px;
+  letter-spacing: 10px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+  text-transform: uppercase;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 450px;
+  left: 7%;
+  top: 5%;
+  /* background-color: red; */
+  z-index: 999;
+}
+#nav img {
+  height: 60px;
+}
+#nav h5 {
+  font-size: 18px;
+  font-family: "Russo One", sans-serif;
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
